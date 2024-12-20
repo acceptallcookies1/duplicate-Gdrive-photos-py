@@ -6,7 +6,17 @@ This repository contains a collection of beginner-friendly Python scripts to aut
 
 ## 📂 Project Structure
 
-TBD
+BEGINNER/
+│
+├── Duplicate_Photos_Local/
+│   ├── duplicate_finder.py      # Script to find duplicate photos
+│   └── Logs/                    # Logs for duplicate files
+│
+├── GDrive_Photos_Vs_Local/
+│   ├── compare_photos.py        # Script to compare local photos with Google Drive
+│   └── credentials.json         # [Excluded] Google API credentials
+│
+└── .gitignore                   # Ignores credentials.json and Logs folder
 
 
 ---
